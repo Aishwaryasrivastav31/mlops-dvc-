@@ -3,9 +3,9 @@ import os
 
 # Ensure all columns have the same length
 df = {
-    "name": ["a", "b", "c","d"],
-    "age": [20, 24, 28,29],     # 3 values
-    "marks": [100, 90, 80,92]
+    "name": ["a", "b", "c","d","aish"],
+    "age": [20, 24, 28,29,23],     # 3 values
+    "marks": [100, 90, 80,92,100]
 }
 data = pd.DataFrame(df)
 
